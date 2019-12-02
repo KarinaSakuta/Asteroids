@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Loading from './Loading';
+import Favicon from 'react-favicon';
+import logoIcon from '../assets/img/logo-icon.png';
 
 const API_KEY = 'fXu3EJYP3AsJHgJBoEuwzZkkv3BonXcvCc4ljKDJ';
 
@@ -142,6 +144,7 @@ export default class DetailsPage extends Component {
     return (
       <div className="page page_details">
         <h1 className="page__header">Details</h1>
+        <Favicon url={logoIcon} />
         {this.renderDetails()}
       </div>
     );
