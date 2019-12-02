@@ -1,0 +1,65 @@
+.asteroids-details {
+    &__container {
+        max-width: 700px;
+        margin: 0 auto 20px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #7dc4e6bf;
+        border-radius: 20px;
+        font-size: 22px;
+        color: #fff;
+        line-height: 40px;
+        margin: 20px auto;
+        padding-top: 10px;
+        padding-left: 20px;
+
+        @media (min-width: 330px) and (max-width: 767px) {
+            margin: 0 10px;
+        }
+
+        @media (min-width: 500px) and (max-width: 600px) {
+            padding-left: 10px;
+            font-size: 20px;
+        }
+
+        @media (min-width: 600px) and (max-width: 1024px) {
+            max-width: 560px;
+            margin: 0 auto;
+            padding-left: 25px;
+            font-size: 22px;
+        }
+
+        @include mobile {
+            padding-left: 3px;
+            font-size: 17px;
+            line-height: 33px;
+        }
+    }
+
+    &__item-list-header {
+        margin: 10px 0;
+        color: #004effd9;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    &__element-link {
+        color: #6024c0;
+        text-decoration: none;
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            color: #3d157e;
+        }
+    }
+
+    &__item-list-date {
+        color: #004effd9;
+    }
+
+    &__item-list-value_approach-data {
+        &:not(:last-child) {
+            padding-bottom: 24px;
+        }
+    }
+}

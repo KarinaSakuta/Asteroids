@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    background: url("../assets/img/bg-image.jpg");
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+}
+
+.header {
+    display: block;
+    height: 60px;
+}
+
+.footer {
+    display: block;
+    height: 70px;
+}
+
+.page {
+    &__header {
+        background: #cc00ff54;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        margin: 30px 0;
+        text-align: center;
+        font-size: 60px;
+        line-height: 108px;
+        color: #fff;
+
+        @include mobile {
+            font-size: 37px;
+            line-height: 90px;
+        }
+    }
+}

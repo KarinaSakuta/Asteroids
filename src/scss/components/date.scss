@@ -1,0 +1,17 @@
+.date {
+    &__container {
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+
+        @include mobile {
+            font-size: 20px;
+        }
+    }
+}

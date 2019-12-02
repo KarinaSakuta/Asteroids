@@ -1,0 +1,22 @@
+.header {
+    height: 60px;
+    background-color: rgba(57, 178, 211, 0.79);
+
+    &__link {
+        line-height: 60px;
+        font-size: 35px;
+        padding-left: 15px;
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            color: rgb(206, 206, 206);
+        }
+    }
+
+    &__link-emoji {
+        font-size: 30px;
+    }
+}

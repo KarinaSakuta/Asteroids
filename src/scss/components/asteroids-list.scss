@@ -1,0 +1,92 @@
+.asteroids-list {
+    text-align: center;
+    column-count: 2;
+
+    @include mobile {
+        margin: 0 10px;
+        column-count: 1;
+    }
+
+    @include tablet {
+        margin: 0 12px;
+    }
+
+    @include desktop {
+        margin: 0 15px;
+    }
+
+    &__element {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        max-width: 500px;
+        margin: 0 auto 30px auto;
+        padding-top: 10px;
+        background: #7dc4e6bf;
+        border-radius: 20px;
+        font-size: 22px;
+        color: #fff;
+
+        @include tablet {
+            font-size: 19px;
+        }
+    }
+
+    &__element-btn {
+        margin: 15px auto 20px;
+        display: block;
+        background: #004effa3;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 2px 45px 2px 45px;
+        border-radius: 6px;
+
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            background: #004effd9;
+        }
+    }
+
+    &__element-link {
+        color: #6024c0;
+        text-decoration: none;
+
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            color: #3d157e;
+        }
+    }
+
+    &__element-btn-link {
+        color: #fff;
+        font-size: 22px;
+        line-height: 32px;
+        text-decoration: none;
+
+        @include tablet {
+            font-size: 19px;
+        }
+
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            color: #ececec;
+        }
+    }
+
+    &__element-item {
+        padding-left: 20px;
+        line-height: 30px;
+    }
+
+    &__element_is-hazardous{
+        color: rgb(0, 136, 0);
+    }
+
+    &__element_hazardous .asteroids-list__element_is-hazardous {
+        color: rgb(233, 0, 0);
+    }
+}

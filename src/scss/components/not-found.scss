@@ -1,0 +1,13 @@
+.asteroids-notfound {
+    &__text {
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 28px;
+        text-align: center;
+    }
+    &__picture {
+        margin: auto;
+        display: block;
+        width: 315px;
+    }
+}

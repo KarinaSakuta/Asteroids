@@ -1,0 +1,92 @@
+.hazardous-form {
+    margin: 0 auto;
+    display: flex;
+    padding: 0 12px;
+    flex-direction: row;
+    max-width: 1700px;
+    
+    @include mobile {
+        flex-direction: column;
+    }
+
+    &__text {
+        position: relative;
+        display: block;
+        padding-right: 41px;
+        padding-left: 35px;
+        cursor: pointer;
+        font-size: 22px;
+        color: #fff;
+        user-select: none;
+        line-height: 32px;
+        
+        @include mobile {
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+      
+    &__checkbox {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    
+    &__checkmark {
+        position: absolute;
+        margin-left: 10px;
+        top: 5px;
+        height: 25px;
+        width: 25px;
+        background: rgba(255,255,255,0.5);
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 9px;
+    }
+    
+    &__text:hover &__checkbox ~ &__checkmark {
+        transition: 0.2s;
+        transition-timing-function: ease-out;
+        background: #cfcfcf1f;
+    }
+    
+    &__text &__checkbox:checked ~ &__checkmark {
+        background-color: #2a76b5;
+    }
+    
+    &__checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    
+    &__text &__checkbox:checked ~ &__checkmark:after {
+        display: block;
+    }
+    
+    &__text &__checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+    }
+
+    &__text-input {
+        margin-left: 10px;
+        flex: 1;
+        padding: 7px 10px;
+        height: 18px;
+        font-size: 19px;
+        border: 2px solid rgba(255,255,255,0.5);
+        border-radius: 17px;
+        background: rgba(255,255,255,0.5);
+        outline: none;
+        @include mobile {
+            margin-bottom: 15px;
+        }
+    }
+}

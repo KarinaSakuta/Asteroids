@@ -1,0 +1,31 @@
+.pagination {
+    &__container {
+        margin: 15px auto;
+        display: flex;
+        width: 150px;
+        flex-direction: row;
+        justify-content: space-around;
+        background: #cfcfcf2e;
+        border: 2px solid #ffffffd6;
+        border-radius: 20px;
+        line-height: 40px;
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            background: #cfcfcf1f;
+        }
+    }
+
+    &__next, &__prev {
+        cursor: pointer;
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            color: #ffffff2e;
+        }
+    }
+}

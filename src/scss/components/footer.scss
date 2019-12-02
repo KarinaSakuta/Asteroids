@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgba(57,178,211,0.79);
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    &__link-img {
+        margin: 10px 0;
+        width: 40px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+
+        &:hover {
+            transition: 0.2s;
+            transition-timing-function: ease-out;
+            box-shadow: 0 0 10px #ca1ed2;
+        }
+    }
+}

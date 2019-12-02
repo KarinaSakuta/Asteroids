@@ -1,0 +1,29 @@
+@keyframes spinner {
+  100% {
+    transform: rotate(3600deg);
+  }
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  margin:  45px auto;
+  text-align: center;
+  
+  &__spinner {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100px;
+    height: 92px;
+    background: url("../assets/img/spinner.png") center center no-repeat;
+    background-size: contain;
+    animation: spinner 3s infinite alternate ease-in-out;
+    transform-origin: 50px 55px;
+  }
+  &__spinner-text {
+    margin-top: 35px;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+  }
+}
