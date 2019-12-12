@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Asteroids/static/css/main.82e2c140.chunk.css",
-    "main.js": "/Asteroids/static/js/main.2f0bb973.chunk.js",
-    "main.js.map": "/Asteroids/static/js/main.2f0bb973.chunk.js.map",
+    "main.js": "/Asteroids/static/js/main.ed694f6a.chunk.js",
+    "main.js.map": "/Asteroids/static/js/main.ed694f6a.chunk.js.map",
     "runtime-main.js": "/Asteroids/static/js/runtime-main.950659b1.js",
     "runtime-main.js.map": "/Asteroids/static/js/runtime-main.950659b1.js.map",
     "static/js/2.fac48b53.chunk.js": "/Asteroids/static/js/2.fac48b53.chunk.js",
     "static/js/2.fac48b53.chunk.js.map": "/Asteroids/static/js/2.fac48b53.chunk.js.map",
     "index.html": "/Asteroids/index.html",
-    "precache-manifest.8acddd1bef52511599975d835a3181bc.js": "/Asteroids/precache-manifest.8acddd1bef52511599975d835a3181bc.js",
+    "precache-manifest.1534b4e6160d4c1d9df8ac6e64c6136d.js": "/Asteroids/precache-manifest.1534b4e6160d4c1d9df8ac6e64c6136d.js",
     "service-worker.js": "/Asteroids/service-worker.js",
     "static/css/main.82e2c140.chunk.css.map": "/Asteroids/static/css/main.82e2c140.chunk.css.map",
     "static/media/asteroid_face.png": "/Asteroids/static/media/asteroid_face.af88b17e.png",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.950659b1.js",
     "static/js/2.fac48b53.chunk.js",
     "static/css/main.82e2c140.chunk.css",
-    "static/js/main.2f0bb973.chunk.js"
+    "static/js/main.ed694f6a.chunk.js"
   ]
 }
