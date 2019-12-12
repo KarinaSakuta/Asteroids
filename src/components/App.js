@@ -6,7 +6,7 @@ import ListPage from './ListPage';
 import Header from './Header';
 import Footer from './Footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';

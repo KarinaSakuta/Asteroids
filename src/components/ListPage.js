@@ -16,7 +16,7 @@ export default class ListPage extends Component {
       searchByName: '',
       isLoaded: false,
       list: [],
-      link: `http://www.neowsapp.com/rest/v1/feed?start_date=2019-11-28&end_date=2019-11-29&detailed=false&api_key=${API_KEY}`,
+      link: `https://www.neowsapp.com/rest/v1/feed?start_date=2019-11-28&end_date=2019-11-29&detailed=false&api_key=${API_KEY}`,
       next: '',
       prev: '',
       startDate: '',
