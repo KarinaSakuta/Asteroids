@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/asteroids/static/css/main.4815521c.chunk.css",
-    "main.js": "/asteroids/static/js/main.0a8d43c1.chunk.js",
-    "main.js.map": "/asteroids/static/js/main.0a8d43c1.chunk.js.map",
-    "runtime-main.js": "/asteroids/static/js/runtime-main.c2b8f07b.js",
-    "runtime-main.js.map": "/asteroids/static/js/runtime-main.c2b8f07b.js.map",
-    "static/js/2.fac48b53.chunk.js": "/asteroids/static/js/2.fac48b53.chunk.js",
-    "static/js/2.fac48b53.chunk.js.map": "/asteroids/static/js/2.fac48b53.chunk.js.map",
-    "index.html": "/asteroids/index.html",
-    "precache-manifest.898cd8481884c342c5a1cd8e381ed3ac.js": "/asteroids/precache-manifest.898cd8481884c342c5a1cd8e381ed3ac.js",
-    "service-worker.js": "/asteroids/service-worker.js",
-    "static/css/main.4815521c.chunk.css.map": "/asteroids/static/css/main.4815521c.chunk.css.map",
-    "static/media/asteroid_face.png": "/asteroids/static/media/asteroid_face.af88b17e.png",
-    "static/media/main.css": "/asteroids/static/media/spinner.9b034cbc.png",
-    "static/media/logo-icon.png": "/asteroids/static/media/logo-icon.413c8733.png"
+    "main.css": "/Asteroids/static/css/main.82e2c140.chunk.css",
+    "main.js": "/Asteroids/static/js/main.2f0bb973.chunk.js",
+    "main.js.map": "/Asteroids/static/js/main.2f0bb973.chunk.js.map",
+    "runtime-main.js": "/Asteroids/static/js/runtime-main.950659b1.js",
+    "runtime-main.js.map": "/Asteroids/static/js/runtime-main.950659b1.js.map",
+    "static/js/2.fac48b53.chunk.js": "/Asteroids/static/js/2.fac48b53.chunk.js",
+    "static/js/2.fac48b53.chunk.js.map": "/Asteroids/static/js/2.fac48b53.chunk.js.map",
+    "index.html": "/Asteroids/index.html",
+    "precache-manifest.8acddd1bef52511599975d835a3181bc.js": "/Asteroids/precache-manifest.8acddd1bef52511599975d835a3181bc.js",
+    "service-worker.js": "/Asteroids/service-worker.js",
+    "static/css/main.82e2c140.chunk.css.map": "/Asteroids/static/css/main.82e2c140.chunk.css.map",
+    "static/media/asteroid_face.png": "/Asteroids/static/media/asteroid_face.af88b17e.png",
+    "static/media/main.css": "/Asteroids/static/media/spinner.9b034cbc.png",
+    "static/media/logo-icon.png": "/Asteroids/static/media/logo-icon.413c8733.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c2b8f07b.js",
+    "static/js/runtime-main.950659b1.js",
     "static/js/2.fac48b53.chunk.js",
-    "static/css/main.4815521c.chunk.css",
-    "static/js/main.0a8d43c1.chunk.js"
+    "static/css/main.82e2c140.chunk.css",
+    "static/js/main.2f0bb973.chunk.js"
   ]
 }
