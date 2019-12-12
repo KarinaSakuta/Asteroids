@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NotFoundPage from './NotFoundPage';
 import DetailsPage from './DetailsPage';
+import Hello from './Hello';
 import ListPage from './ListPage';
 import Header from './Header';
 import Footer from './Footer';
@@ -20,6 +21,7 @@ export default class App extends Component {
             <Switch>
               <Route component={ListPage} exact={true} path="/"></Route>
               <Route component={DetailsPage} path="/details/:asteroidId"></Route>
+              <Route component={Hello} exact={true} path="/Hello"></Route>
               <Route component={NotFoundPage} path="/NotFound"></Route>
               <Route component={NotFoundPage}></Route>
             </Switch>
